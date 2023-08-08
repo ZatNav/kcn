@@ -1,0 +1,58 @@
+/* Topbar.module.css */
+
+/* Styles for the topbar section */
+.box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.topbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #2f455c;
+	color: white;
+	padding: 10px;
+}
+
+/* Styles for the left content */
+.leftContent {
+	display: flex;
+	align-items: center;
+}
+
+.leftContent .icon {
+	margin-left: 15px;
+	margin-right: 5px;
+}
+
+.leftContent .contactInfo span {
+	font-size: 14px;
+}
+
+@media (max-width: 992px){
+	.leftContent .contactInfo span{
+		font-size: 11px;
+	}
+	
+
+}
+
+
+/* Styles for the right content */
+.rightContent {
+	display: flex;
+}
+
+.rightContent .socialIcon {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+
+@media (min-width: 992){
+	.navLogo{
+		padding-right:2% !important;
+		color:"white";
+	}
+}

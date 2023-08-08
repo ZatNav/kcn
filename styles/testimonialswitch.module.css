@@ -1,0 +1,84 @@
+.testimonialContainer {
+  /* background-color: #476ce4; */
+  color: #fff;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 0 100px 0 0;
+  max-width: 768px;
+  position: relative;
+}
+
+/* Styles for the quote icons */
+.quoteIcon {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 28px;
+  position: absolute;
+  top: 70px;
+}
+
+.quoteRight {
+  left: 40px;
+}
+
+.quoteLeft {
+  right: 40px;
+}
+
+/* Styles for the testimonial text */
+.testimonial {
+  line-height: 28px;
+  text-align: justify;
+}
+
+/* Styles for the user section */
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userImage {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+}
+
+.userDetails {
+  margin-left: 10px;
+}
+
+.username {
+  margin: 0;
+}
+
+.role {
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+/* Styles for the progress bar */
+.progressBar {
+  background-color: #fff;
+  height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+  margin: 25px 0;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonialContainer {
+    padding: 20px 30px;
+  }
+
+  .quoteIcon {
+    display: none;
+  }
+}

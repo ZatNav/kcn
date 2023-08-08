@@ -1,0 +1,21 @@
+.testimonials {
+  background-color: #2f455c;
+  /* text-align: center; */
+  padding: 50px 0 50px 0;
+}
+
+.testimonials h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px; /* Updated font size for the heading */
+  font-weight: bold;
+  color: white;
+  text-align: left; /* left the heading within the column */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 992px) {
+  .switch {
+    flex-direction: column-reverse;
+  }
+}
