@@ -74,7 +74,12 @@ function solutions() {
 					}
 				/>
 				{/* Section 2 */}
-				<ServicesStyle2 cardData={cardData} />
+				<section className={styles.services}>
+					<Container>
+						<h2>Our Solutions --</h2>
+						<ServicesStyle2 cardData={cardData} />
+					</Container>
+				</section>
 				{/* Section 3 */}
 				<Whyus />
 				{/* Section 5 */}

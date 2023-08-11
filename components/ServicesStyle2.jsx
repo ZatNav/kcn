@@ -20,22 +20,13 @@ const ServiceCard = ({ imgSrc, title, text }) => (
 );
 
 const ServicesStyle2 = ({ cardData }) => (
-	<section className={styles.services}>
-		<Container>
-			<h2>Our Industries --</h2>
-			<Row>
-				{cardData.map((data, index) => (
-					<Col key={index} md={4}>
-						<ServiceCard
-							imgSrc={data.imgSrc}
-							title={data.title}
-							text={data.text}
-						/>
-					</Col>
-				))}
-			</Row>
-		</Container>
-	</section>
+	<Row>
+		{cardData.map((data, index) => (
+			<Col key={index} md={4}>
+				<ServiceCard imgSrc={data.imgSrc} title={data.title} text={data.text} />
+			</Col>
+		))}
+	</Row>
 );
 
 export default ServicesStyle2;

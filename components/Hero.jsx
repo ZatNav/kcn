@@ -18,7 +18,11 @@ const Hero = ({ heading }) => {
 							the means to thrive and adapting to the evolving demands of a
 							dynamic world.
 						</p>
-						{/* <input type="text" placeholder="Search" /> */}
+						<input
+							type="text"
+							placeholder="Search"
+							style={{ width: "-webkit-fill-available" }}
+						/>
 					</Col>
 					<Col className={styles.rightColumn} md={4}>
 						<Row className={styles.heroSlider}>

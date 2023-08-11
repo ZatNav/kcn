@@ -152,10 +152,15 @@ function industries() {
 					</Container>
 				</section>
 				{/* Section 3 */}
-				<ServicesStyle2 cardData={cardData} />
+				<section className={styles.services}>
+					<Container>
+						<h2>Our Induestries --</h2>
+						<ServicesStyle2 cardData={cardData} />
+					</Container>
+				</section>
 				{/* Section 4 */}
 				{/* Section 5 */}
-				<Services />
+				{/* <Services /> */}
 				{/* Section 6 */}
 				<Cta />
 			</main>
