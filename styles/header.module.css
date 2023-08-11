@@ -1,53 +1,53 @@
 @media (min-width: 1401px) {
-  .navLogo {
-    padding-right: 10% !important;
-    color: "white";
-  }
+	.navLogo {
+		padding-right: 10% !important;
+		color: "white";
+	}
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
-  .navLogo {
-    padding-right: 2% !important;
-    color: "white";
-  }
+	.navLogo {
+		padding-right: 0 !important;
+		color: "white";
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .navLogo {
-    padding-right: 0% !important;
-    color: "white";
-  }
+	.navLogo {
+		padding-right: 0% !important;
+		color: "white";
+	}
 }
 
 @media (min-width: 1199px) {
-  .lgNav {
-    background-color: "transparent";
-    margin-bottom: -103px;
-    color: white !important;
-  }
-  .lgNav a {
-    color: white !important;
-  }
-  .lgNav a:hover {
-    color: #21d0b3 !important;
-  }
+	.lgNav {
+		background-color: "transparent";
+		margin-bottom: -103px;
+		color: white !important;
+	}
+	.lgNav a {
+		color: white !important;
+	}
+	.lgNav a:hover {
+		color: #21d0b3 !important;
+	}
 }
 /* Styles for the CTA section */
 /* .cta {
 	padding: 10px;
 } */
 .lgNav {
-  z-index: 2;
+	z-index: 2;
 }
 .ctaButton {
-  padding: 10px 20px;
-  background-color: #21d0b3;
-  color: #2f455c;
-  text-decoration: none;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.2s;
+	padding: 10px 20px;
+	background-color: #21d0b3;
+	color: #2f455c;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: background-color 0.2s;
 }
 
 .ctaButton:hover {
-  background-color: #f5f5f5;
+	background-color: #f5f5f5;
 }

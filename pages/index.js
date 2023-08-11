@@ -18,32 +18,32 @@ import Map from "@/components/reuseable/Map";
 import Link from "next/link";
 
 export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>KCN WEBSITE</title>
-        <meta name="description" content="KCN Telecommunications Group" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      {/* <main className={styles.main}> */}
+	return (
+		<div>
+			<Head>
+				<title>KCN WEBSITE</title>
+				<meta name="description" content="KCN Telecommunications Group" />
+				<link rel="icon" href="/favicon.svg" />
+			</Head>
+			{/* <main className={styles.main}> */}
 
-      <main>
-        <Hero />
-        {/* <VideoBackgroundSection /> */}
-        <About />
-        <Services />
-        <Whyus />
-        <Cta />
-        <Facts />
-        <Portfolio />
-        {/* <Slider /> */}
-        {/* <Carousel /> */}
-        <Partners />
-        <Clients />
-        <Testimonials />
-        {/* <Map /> */}
-        <Map />
-      </main>
-    </div>
-  );
+			<main>
+				<Hero />
+				{/* <VideoBackgroundSection /> */}
+				<About />
+				<Services />
+				<Whyus />
+				<Cta />
+				<Facts />
+				<Portfolio />
+				{/* <Slider /> */}
+				{/* <Carousel /> */}
+				<Partners />
+				<Clients />
+				<Testimonials />
+				{/* <Map /> */}
+				<Map />
+			</main>
+		</div>
+	);
 }

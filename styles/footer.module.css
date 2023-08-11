@@ -1,4 +1,7 @@
 @media (max-width: 992px) {
+	.footer {
+		padding: 20px 0 0 0;
+	}
 	.column {
 		min-width: -webkit-fill-available;
 	}
@@ -11,14 +14,11 @@
 	.column img {
 		width: auto !important;
 	}
-	.bottom-section{
+	.bottom-section {
 		justify-content: space-around !important;
 		flex-wrap: wrap;
 	}
-	
 }
-
-
 
 .footer {
 	display: flex;
@@ -26,7 +26,7 @@
 	justify-content: space-between;
 	color: white;
 	background-color: #2f455c;
-	padding: 100px 0 10px 0;
+	padding: 50px 0 0 0;
 }
 
 .column {
