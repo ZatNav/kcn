@@ -94,7 +94,7 @@ Products.defaultProps = {
 		{
 			id: 9,
 			imageSrc: "product1.png",
-			name: "AC/DC Power Cable",
+			name: "AC or DC Power Cable",
 		},
 		{
 			id: 10,

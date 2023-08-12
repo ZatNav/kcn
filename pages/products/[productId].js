@@ -6,7 +6,7 @@ import Hero from "@/components/Hero";
 import Whyus from "@/components/Whyus";
 import Cta from "@/components/reuseable/Cta";
 import TopSection from "@/components/TopSection";
-import ProductDetailsTab from "@/components/ProductDetailsTab";
+import DetailsTab from "@/components/DetailsTab";
 
 export default function ProductDetails() {
 	const router = useRouter();
@@ -44,7 +44,7 @@ export default function ProductDetails() {
 
 			<main>
 				<TopSection heading={productId} text={productText} />
-				<ProductDetailsTab tabData={tabData} />
+				<DetailsTab tabData={tabData} />
 				<Cta />
 			</main>
 		</div>

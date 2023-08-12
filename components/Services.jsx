@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import styles from "../styles/home.module.css";
+import Link from "next/link";
 
 const Services = ({ items }) => {
 	return (
@@ -45,6 +46,9 @@ const Services = ({ items }) => {
 										}}
 									>
 										{item.description}
+										<Link href={`/services/${item.title}`} passHref>
+											Read More...
+										</Link>
 									</Card.Text>
 								</Card.Body>
 							</Card>

@@ -154,7 +154,7 @@ function industries() {
 				{/* Section 3 */}
 				<section className={styles.services}>
 					<Container>
-						<h2>Our Induestries --</h2>
+						<h2>Our Industries --</h2>
 						<ServicesStyle2 cardData={cardData} />
 					</Container>
 				</section>

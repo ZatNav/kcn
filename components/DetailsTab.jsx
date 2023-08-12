@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Button, Tab, Tabs, Image } from "react-bootstrap";
 import styles from "../styles/home.module.css";
 
-const ProductDetailsTab = ({ tabData }) => {
+const DetailsTab = ({ tabData }) => {
 	return (
 		<section className={styles.whyUs}>
 			<Container>
@@ -38,4 +38,4 @@ const ProductDetailsTab = ({ tabData }) => {
 	);
 };
 
-export default ProductDetailsTab;
+export default DetailsTab;
