@@ -51,3 +51,10 @@
 .ctaButton:hover {
 	background-color: #f5f5f5;
 }
+
+.offNav a {
+	color: white !important;
+}
+.offNav a:hover {
+	color: #21d0b3 !important;
+}

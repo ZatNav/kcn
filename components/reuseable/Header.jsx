@@ -58,14 +58,15 @@ const Header = () => {
 				show={showServicesOffcanvas || showProductsOffcanvas}
 				onHide={closeOffcanvas}
 				placement="start"
+				style={{ backgroundColor: "#2f455c", color: "white" }}
 			>
 				<Offcanvas.Header closeButton>
-					<Offcanvas.Title>
+					{/* <Offcanvas.Title>
 						{showServicesOffcanvas ? "KCN Services" : "KCN Products"}
-					</Offcanvas.Title>
+					</Offcanvas.Title> */}
 				</Offcanvas.Header>
 				<Offcanvas.Body>
-					<Nav className="flex-column">
+					<Nav className={`${styles.offNav} "flex-column"`}>
 						{showServicesOffcanvas && (
 							<>
 								<Nav.Link

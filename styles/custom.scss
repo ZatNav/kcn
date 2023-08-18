@@ -1,5 +1,4 @@
 // styles/custom.scss
-
 // Example of overriding the primary button color
 $primary: transparent;
 
@@ -27,4 +26,8 @@ $primary: transparent;
 
 .tab-pane{
     padding-top: 20px;
+}
+
+.offcanvas-header .btn-close{
+    background-color: white;
 }
