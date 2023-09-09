@@ -19,9 +19,9 @@ function services() {
       <main>
         {/* Section 1 */}
         <TopSection
-          heading={"Welcome to our Website"}
+          heading={"Our Services"}
           text={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+            "KCN is a leading supplier of Telecom network, Power Systems and Data Centre products, specializing in providing high-quality solutions for the telecommunications industry. With years of experience and a commitment to innovation, KCN has established itself as a trusted partner for telecom operators, service providers, and network infrastructure companies worldwide."
           }
         />
         {/* Section 2 */}

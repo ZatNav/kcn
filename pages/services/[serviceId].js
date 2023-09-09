@@ -11,15 +11,15 @@ import DetailsTab from "@/components/DetailsTab";
 const domainHost = "https://kcn-mu.vercel.app/";
 
 export async function getServerSideProps(context) {
-  const productId = context.query.productId;
+  const serviceId = context.query.serviceId;
 
-  // Fetch product details based on productId
+  // Fetch service details based on serviceId
   try {
-    const response = await fetch(`${domainHost}/api/products/${productId}`);
-    const product = await response.json();
-    // console.log(product);
+    const response = await fetch(`${domainHost}/api/services/${serviceId}`);
+    const service = await response.json();
+    console.log(service);
 
-    if (!product) {
+    if (!service) {
       return {
         notFound: true,
       };
@@ -27,24 +27,24 @@ export async function getServerSideProps(context) {
 
     return {
       props: {
-        product,
+        service,
       },
     };
   } catch (error) {
-    console.error("Error fetching product details:", error);
+    console.error("Error fetching service details:", error);
     return {
       notFound: true,
     };
   }
 }
 
-export default function ProductDetails({ product }) {
-  if (!product) {
-    // Handle the case where the product data is not available
+export default function serviceDetails({ service }) {
+  if (!service) {
+    // Handle the case where the service data is not available
     // You can display an error message or redirect to a 404 page
     return (
       <div>
-        <p>Product not found.</p>
+        <p>Service not found.</p>
       </div>
     );
   }
@@ -53,18 +53,18 @@ export default function ProductDetails({ product }) {
     {
       key: "details",
       title: "Details",
-      content: product.details,
+      content: service.description,
     },
-    {
-      key: "technical",
-      title: "Technical Specs",
-      content: product.technical,
-    },
-    {
-      key: "documents",
-      title: "Documents",
-      content: product.documents,
-    },
+    // {
+    //   key: "technical",
+    //   title: "Technical Specs",
+    //   content: service.technical,
+    // },
+    // {
+    //   key: "documents",
+    //   title: "Documents",
+    //   content: service.documents,
+    // },
     // Add more tab data as needed
   ];
 
@@ -77,7 +77,7 @@ export default function ProductDetails({ product }) {
       </Head>
 
       <main>
-        <TopSection heading={product.name} text={product.description} />
+        <TopSection heading={service.name} text={service.description} />
         <DetailsTab tabData={tabData} />
         <Cta />
       </main>
